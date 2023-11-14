@@ -1,4 +1,4 @@
-package by.iba.servlet;
+package by.iba.controller;
 
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;

@@ -1,14 +1,22 @@
 package by.iba.model;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
+import lombok.ToString;
+
+import java.io.Serializable;
 
 @Data
-public class User {
+@ToString
+@AllArgsConstructor
+@NoArgsConstructor
+public class User implements Serializable{
     private int id;
     private String login;
-    private String passw;
+    private byte[] passw;
 
-    public User(String login, String passw) {
+    public User(String login, byte[] passw) {
         this.login = login;
         this.passw = passw;
     }
