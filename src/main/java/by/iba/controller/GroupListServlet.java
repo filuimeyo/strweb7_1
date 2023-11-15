@@ -1,3 +1,4 @@
+/*
 package by.iba.controller;
 
 import by.iba.dao.PersonDao;
@@ -48,3 +49,4 @@ public class GroupListServlet extends HttpServlet {
     }
 
 }
+*/

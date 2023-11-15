@@ -1,3 +1,4 @@
+/*
 package by.iba.controller;
 
 import by.iba.dao.UserDao;
@@ -42,3 +43,4 @@ public class RegisterServlet extends HttpServlet {
     }
 }
 
+*/

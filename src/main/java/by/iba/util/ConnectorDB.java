@@ -1,3 +1,4 @@
+/*
 package by.iba.util;
 
 import org.apache.logging.log4j.LogManager;
@@ -25,4 +26,4 @@ public class ConnectorDB {
 
 }
 
-//Connection cn = ConnectorDB.getConnection();
+//Connection cn = ConnectorDB.getConnection();*/

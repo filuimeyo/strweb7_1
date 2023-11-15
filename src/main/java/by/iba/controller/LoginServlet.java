@@ -1,3 +1,4 @@
+/*
 package by.iba.controller;
 
 import by.iba.dao.UserDao;
@@ -64,9 +65,11 @@ public class LoginServlet extends HttpServlet {
 
     }
 
-   /* public boolean validateUser(String user, String password) {
+   */
+/* public boolean validateUser(String user, String password) {
         return user.equalsIgnoreCase("admin") && password.equals("admin");
-    }*/
+    }*//*
+
 
     @Override
     public void destroy() {
@@ -86,3 +89,4 @@ public class LoginServlet extends HttpServlet {
         System.out.println("service");
     }
 }
+*/

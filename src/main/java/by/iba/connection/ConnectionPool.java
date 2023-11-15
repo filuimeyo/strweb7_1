@@ -26,6 +26,7 @@ public class ConnectionPool {
     public static ConnectionPool getInstance() {
         try {
             lock.lock();
+
             if (connectionPool == null) {
                 connectionPool = new ConnectionPool();
             }
@@ -114,5 +115,4 @@ public class ConnectionPool {
             logger.error("Drivers were not deregistrated", e);
         }
     }
-
 }

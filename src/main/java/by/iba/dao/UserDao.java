@@ -1,3 +1,4 @@
+/*
 package by.iba.dao;
 
 import by.iba.model.User;
@@ -87,3 +88,4 @@ public class UserDao {
 
     }
 }
+*/

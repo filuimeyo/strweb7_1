@@ -21,9 +21,12 @@ public class PersonService {
     public void save(Person person) throws ServiceException {
         try (RepositoryCreator repositoryCreator = new RepositoryCreator()) {
             PersonRepository personRepository = repositoryCreator.getPersonRepository();
-            personRepository.save(person);
+            Person newp = new Person(person);
+            personRepository.save(newp);
+            System.out.println("adding");
+
         } catch (RepositoryException exception) {
-            throw new ServiceException(exception.getMessage(), exception);
+           // throw new ServiceException(exception.getMessage(), exception);
         }
     }
 

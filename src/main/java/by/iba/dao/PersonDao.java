@@ -1,3 +1,4 @@
+/*
 package by.iba.dao;
 
 import by.iba.model.Person;
@@ -82,3 +83,4 @@ public class PersonDao {
     }
 
 }
+*/
